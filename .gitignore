@@ -1,0 +1,32 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Firebase config is per-project and per-environment: never commit it.
+google-services.json
+GoogleService-Info.plist
+
+# Signing
+*.jks
+*.keystore
+keystore.properties
+
+SESSION_HANDOFF.md
+.claude/settings.local.json
+*.hprof
+.vscode/
